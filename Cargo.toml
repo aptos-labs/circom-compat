@@ -25,7 +25,7 @@ ark-bn254 = { version = "=0.4.0" }
 ark-groth16 = { version = "=0.4.0", default-features = false, features = ["parallel"] }
 ark-poly = { version = "=0.4.1", default-features = false, features = ["parallel"] }
 ark-relations = { version = "=0.4.0", default-features = false }
-ark-serialize = { version = "=0.4.1", default-features = false }
+ark-serialize = { version = "0.4.1", default-features = false }
 
 # decoding of data
 hex = "=0.4.3"
@@ -35,7 +35,7 @@ byteorder = "=1.4.3"
 ethers-core = { version = "=2.0.7", default-features = false, optional = true }
 
 # error handling
-thiserror = "=1.0.39"
+thiserror = "1.0.39"
 color-eyre = "=0.6.2"
 criterion = "=0.3.6"
 
