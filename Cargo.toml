@@ -12,7 +12,7 @@ crate-type = ["cdylib", "rlib"]
 # WASM operations
 #wasmer = { rev = "447c2e3a152438db67be9ef649327fabcad6f5b8", default_features = false } 
 #wasmer = { version = "=2.3.0", default-features = false }
-wasmer = { git = "https://github.com/wasmerio/wasmer", rev = "447c2e3a152438db67be9ef649327fabcad6f5b8", features = ["sys"] }
+wasmer = { git = "https://github.com/aptos-labs/wasmer", rev = "a8789e29775da1348694b29c00c7fc505bf344e8" }
 fnv = { version = "1.0.7", default-features = false }
 num = { version = "0.4.0" }
 num-traits = { version = "0.2.15", default-features = false }
